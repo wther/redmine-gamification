@@ -1,0 +1,51 @@
+<div class="row" ng-if="data.length && data[0].today">
+
+    <div class="col-md-10 col-md-offset-1">
+        <h1>{{data[0].today.day | date:"EEEE"}}</h1>
+    </div>
+
+    <div class="col-md-10 col-md-offset-1">
+        <table class="table table-striped">
+            <tr>
+                <th>User</th>
+                <th>Logging time</th>
+                <th>Issue commenting</th>
+            </tr>
+            <tr ng-repeat="row in data">
+                <td>{{row.name}}</td>
+                <td ng-repeat="key in ['time_points', 'update_points']">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div chart="row.today.points[key]"></div>
+                        </div>
+                        <div class="col-md-4 reasons">
+                            <ul><li ng-repeat="value in row.today.reasons[key].reasons">{{value}}</li></ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<div class="row" ng-if="data.length > 0">
+
+    <div class="col-md-offset-1 col-md-10">
+        <h1>History</h1>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+        <table class="table table-condensed">
+            <tr>
+                <th>User</th>
+                <th>Daily points</th>
+            </tr>
+            <tr ng-repeat="row in data">
+                <td title="{{row.time_points}}, {{row.update_points}}">{{row.name}}</td>
+                <td><div diagram="row.days"></div></td>
+            </tr>
+        </table>
+    </div>
+
+  <div id="chartdiv"></div>
+</div>

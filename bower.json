@@ -1,0 +1,16 @@
+{
+  "name": "redmine-gamification",
+  "description": "A simple gamification tool for Redmine",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "bootstrap": "~4.0.0-alpha",
+    "amcharts": "~3.15.2"
+  }
+}

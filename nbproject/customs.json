@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "diagram": {
+            "context": "div"
+        },
+        "chart": {
+            "context": "div"
+        }
+    }
+}
