@@ -13,20 +13,20 @@ The application has a "data gathering" Python script and an Angular.js front-end
 In order to run the Angular.js app which uses the app/data/data.json file to serve content, you should:
 
      npm install
-     
+
 It can run like this:
 
      npm run
-     
+
 How does it work?
 -----------------
 
 You will see reports like this:
 
-![History]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png "History")
+![History](https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png)
 
 and
 
-![Velocity]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedmineVelocity.png "Velocity")
+![Velocity]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedmineVelocity.png)
 
 
