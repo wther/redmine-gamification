@@ -23,7 +23,7 @@ How does it work?
 
 You will see reports like this:
 
-![History](https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png)
+![History]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png)
 
 and
 
