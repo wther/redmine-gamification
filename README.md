@@ -8,7 +8,7 @@ How to install?
 
 The application has a "data gathering" Python script and an Angular.js front-end. You should schedule to run the data gathering script as often as you prefer. It can be ran like this:
 
-    python/python runner.py --url https://redmine.url/ --user admin --password admin --project project --days=25 app/data/data.json
+    python python/runner.py --url https://redmine.url/ --user admin --password admin --project project --days=25 app/data/data.json
 
 In order to run the Angular.js app which uses the app/data/data.json file to serve content, you should:
 
@@ -16,17 +16,17 @@ In order to run the Angular.js app which uses the app/data/data.json file to ser
 
 It can run like this:
 
-     npm run
+     npm start
 
 How does it work?
 -----------------
 
 You will see reports like this:
 
-![History]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png)
+![History](https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedminePointHistory.png)
 
 and
 
-![Velocity]:(https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedmineVelocity.png)
+![Velocity](https://raw.githubusercontent.com/wther/redmine-gamification/master/docs/RedmineVelocity.png)
 
 

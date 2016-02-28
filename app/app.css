@@ -31,6 +31,8 @@ div.diagramdiv {
 }
 
 div.chartdiv a, div.diagramdiv a {
-    // Uncomment this line to get rid of copyright marker
-    // font-size: 0px !important;
+/*
+    Uncomment this to get rid of Copyright marker
+    font-size: 0px !important;
+*/
 }

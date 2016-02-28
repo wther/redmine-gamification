@@ -3,4 +3,5 @@ node_modules/
 bower_components/
 __pycache__/
 .idea
+*.pyc
 /nbproject/private/
